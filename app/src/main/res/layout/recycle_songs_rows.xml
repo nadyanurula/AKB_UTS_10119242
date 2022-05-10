@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/phthalogreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/song_recycle_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/joytime"
+            tools:ignore="MissingConstraints">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/song_recycle_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/song_recycle_image"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"></TextView>
+
+        <TextView
+            android:id="@+id/song_recycle_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/lorem_ipsum"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/song_recycle_image"
+            app:layout_constraintTop_toBottomOf="@+id/song_recycle_title"
+            tools:ignore="MissingConstraints"></TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

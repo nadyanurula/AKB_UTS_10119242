@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.uts_if6_10119242_nadyanurulawaliyah.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_daily"
+        android:name="com.example.uts_if6_10119242_nadyanurulawaliyah.ui.daily.DailyFragment"
+        android:label="Daily"
+        tools:layout="@layout/fragment_daily" />
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.example.uts_if6_10119242_nadyanurulawaliyah.ui.gallery.GalleryFragment"
+        android:label="Galery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="com.example.uts_if6_10119242_nadyanurulawaliyah.ui.music.MusicFragment"
+        android:label="Galery"
+        tools:layout="@layout/fragment_music" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.uts_if6_10119242_nadyanurulawaliyah.ui.profile.ProfileFragment"
+        android:label="Profil"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
