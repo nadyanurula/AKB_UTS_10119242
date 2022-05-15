@@ -10,14 +10,12 @@
     <color name="mantis">#7BC950</color>
     <color name="light_green">#7CE577</color>
     <color name="aquamarine">#9CFFD9</color>
-    <color name="mediumslateblue">#715AFF</color>
+    <color name="maximusblue">#40BCD8</color>
     <color name="colorBlack87">#de000000</color>
-    <color name="cornflowerblue">#5887FF</color>
+    <color name="frenchblue">#1C77C3</color>
     <color name="colorCoolGrey">#bababb</color>
-    <color name="spanishgreen">#168E48</color>
-    <color name="darthmouthgreen">#007537</color>
-    <color name="forestgreen">#04471C</color>
-    <color name="phthalogreen">#0D2818</color>
     <color name="black0202">#020202</color>
     <color name="vividskyblue">#47A9C7</color>
+    <color name="pink">#EDADC7</color>
+    <color name="skyblue">#0ad3ff</color>
 </resources>

@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/phthalogreen">
+    android:background="@color/skyblue">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
             android:id="@+id/song_recycle_image"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/joytime"
+            android:src="@drawable/image2"
             tools:ignore="MissingConstraints">
         </ImageView>
 
